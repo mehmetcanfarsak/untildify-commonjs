@@ -1,6 +1,6 @@
 {
   "name": "untildify-commonjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert a tilde path to an absolute path: `~/dev` → `/Users/john/dev`",
   "license": "MIT",
   "repository": "mehmetcanfarsak/untildify-commonjs",
@@ -26,7 +26,12 @@
     "user",
     "shell",
     "bash",
-    "backend"
+    "backend",
+    "tildify",
+    "unexpand",
+		"homedir",
+		"collapse",
+		"convert"
   ],
   "devDependencies": {
     "ava": "^5.3.1"
